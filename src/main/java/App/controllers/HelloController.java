@@ -60,7 +60,7 @@ public class HelloController {
     @RequestMapping("/book")
     public BookDTO getBook() {
         BookDTO bookDTO = new BookDTO();
-        bookDTO.setBookName("Harry Porter The Soccer stone");
+        bookDTO.setBookName("Harry Porter The End Game");
         bookDTO.setBookPrice(new BigDecimal("120.00"));
         return bookDTO;
     }
